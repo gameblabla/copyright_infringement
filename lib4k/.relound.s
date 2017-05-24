@@ -1,0 +1,21 @@
+XL2
+H 1 areas 3 global symbols
+M play_sound
+S _snd_table Ref0000
+S .__.ABS. Def0000
+A _CODE size 1D flags 0 addr 0
+S _stop_sound Def0000
+T 00 00
+R 00 00 00 00
+T 00 00 C1 D1 D5 C5 7B 47 21 FE FF 11 04 00
+R 00 00 00 00 02 09 00 00
+T 0C 00
+R 00 00 00 00
+T 0C 00 19 10 FD 47 5E 23 56 EB 7E E6 3F B8 20 02
+R 00 00 00 00
+T 1A 00 36 FF
+R 00 00 00 00
+T 1C 00
+R 00 00 00 00
+T 1C 00 C9
+R 00 00 00 00

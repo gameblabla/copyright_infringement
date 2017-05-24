@@ -1,0 +1,17 @@
+XL2
+H 1 areas 3 global symbols
+M cv_set_write_vram_address
+S .__.ABS. Def0000
+S _cv_vint_indicator Ref0000
+A _CODE size 1B flags 0 addr 0
+S _cv_set_write_vram_address Def0000
+T 00 00
+R 00 00 00 00
+T 00 00 FD E1 E1 E5
+R 00 00 00 00
+T 04 00
+R 00 00 00 00
+T 04 00 DB BF AF 32 00 00 7D D3 BF 7C F6 40 D3 BF
+R 00 00 00 00 02 06 01 00
+T 12 00 3A 00 00 B7 C2 04 00 FD E9
+R 00 00 00 00 02 03 01 00 00 07 00 00

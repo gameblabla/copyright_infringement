@@ -1,0 +1,20 @@
+XL2
+H 1 areas 2 global symbols
+M cv_memtovmemcpy_slow
+S .__.ABS. Def0000
+A _CODE size 21 flags 0 addr 0
+S _cv_memtovmemcpy_slow Def0000
+T 00 00
+R 00 00 00 00
+T 00 00 21 02 00 39 5E 23 56 23 46 23 7E EB 57 B0
+R 00 00 00 00
+T 0E 00 28 10 0E BE 78 B7 28 01 14
+R 00 00 00 00
+T 17 00
+R 00 00 00 00
+T 17 00 ED A3 00 C2 17 00 15 20 F7
+R 00 00 00 00 00 06 00 00
+T 20 00
+R 00 00 00 00
+T 20 00 C9
+R 00 00 00 00
