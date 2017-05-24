@@ -204,6 +204,14 @@ void results()
 	{
 		Print(results_minigame_1[3], sizeof(results_minigame_1[3]), 255, 5);
 		pause();
+		disable_nmi();
+		screen_off();
+		screen_mode_2_bitmap();
+		SWITCH_IN_BANK9;
+		show_picture(bakura_img);
+		enable_nmi();
+		screen_on();
+		pause();
 	}
 	
 	switch_gamemode(0);	
