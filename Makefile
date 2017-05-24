@@ -11,7 +11,7 @@ EXT=rel
 objs = main.$(EXT) \
 	frame1.$(EXT) frame2.$(EXT) frame3.$(EXT) frame4.$(EXT) frame5.$(EXT) frame6.$(EXT) frame7.$(EXT) frame8.$(EXT) \
 	./libcv/cv_memtovmemcpy_slow.$(EXT) ./libcv/cv_memtovmemcpy_fast.$(EXT) ./libcv/cv_set_write_vram_address.$(EXT) sounds.$(EXT) bakura_beautifulface.$(EXT) \
-	titlescreen.$(EXT) bakura.$(EXT) bakura2.$(EXT) game.$(EXT) text.$(EXT) fontgo.$(EXT)
+	titlescreen.$(EXT) bakura.$(EXT) bakura2.$(EXT) game.$(EXT) text.$(EXT)
 
 all: build
 		makemegacart -map crt0.s crt0.ihx game_buk.rom
@@ -32,9 +32,6 @@ main.rel: main.c
 	
 game.rel: game.c
 	$(CC) $(CFLAGS) -o game.rel game.c --codeseg main --constseg main
-	
-fontgo.rel: fontgo.c
-	$(CC) $(CFLAGS) -o fontgo.rel fontgo.c --codeseg bk11 --constseg bk11
 	
 text.rel: text.c
 	$(CC) $(CFLAGS) -o text.rel text.c --codeseg bk12 --constseg bk12

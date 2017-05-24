@@ -27,6 +27,7 @@ static void init_vdp()
 	fill_vram(0x2000,0xf0,6144);
 	vdp_out (7,0xf1);
 	cls();	
+	delay(1);
 	enable_nmi();
 	screen_on();
 }
@@ -171,6 +172,7 @@ void details_beforemj1()
 
 void results()
 {
+	delay(2);
 	init_vdp();
 
 	SWITCH_IN_BANK12;

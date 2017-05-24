@@ -34,7 +34,7 @@ const unsigned char text_minigame_1[204] =
 "Your goal is to RAPE Siciel.||You must follow on the|on-screen instructions in|order to get more points.||Penetrate him by holding FIRE|then pull out by releasing FIRE||Good luck !||(Press FIRE to play)"
 };
 
-const unsigned char results_minigame_1[5][35] = 
+const unsigned char results_minigame_1[5][37] = 
 {
 	{"Your score is"},
 	{"You suck at fucking.|Try again"},
@@ -50,7 +50,7 @@ const unsigned char gameover_mj1[217] =
 
 const unsigned char gameover_mj1_alternate[170] = 
 {
-	"Siciel seemed to be only|midly satisfed dumped you.||You are now really sad.||You will never see his|beautiful nose again||Desperate, you hanged yourself.||GAME OVER"
+	"Siciel seemed to be only|midly satisfed.|He then promptly dumped you.||You are now really sad.||You will never see his|beautiful nose again||Desperate, you hanged yourself.||GAME OVER"
 };
 
 const unsigned char gameover_mj1_alternate2[150] = 
