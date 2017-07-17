@@ -1,0 +1,47 @@
+-mjwx
+-i crt0.ihx
+-b _CODE = 0x8100
+-b _DATA = 0x7000
+-b_bank1=0xc000
+-b_bank2=0xc000
+-b_bank3=0xc000
+-b_bank4=0xc000
+-b_bank5=0xc000
+-b_bank6=0xc000
+-b_bank7=0xc000
+-b_bank8=0xc000
+-b_bank9=0xc000
+-b_bank10=0xc000
+-b_bank11=0xc000
+-b_bank12=0xc000
+-b_bank13=0xc000
+-b_bank14=0xc000
+-b_bank15=0xc000
+-b_bank16=0xc000
+-k /usr/bin/../share/sdcc/lib/z80
+-k /usr/share/sdcc/lib/z80
+-l ./cvlib.lib
+-l ./getput.lib
+-l z80
+./crt0.rel
+main.rel
+frame1.rel
+frame2.rel
+frame3.rel
+frame4.rel
+frame5.rel
+frame6.rel
+frame7.rel
+frame8.rel
+./libcv/cv_memtovmemcpy_slow.rel
+./libcv/cv_memtovmemcpy_fast.rel
+./libcv/cv_set_write_vram_address.rel
+sounds.rel
+bakura_beautifulface.rel
+titlescreen.rel
+bakura.rel
+bakura2.rel
+game.rel
+text.rel
+
+-e

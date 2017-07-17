@@ -48,7 +48,7 @@ const unsigned char gameover_mj1[217] =
 	"Siciel dumped you because you|don't know how to fuck a sissy.||All men learned of this and they|are now mocking you for this.||Girls went extinct because|ISIS killed them all.||You're now fucking worthless||GAME OVER"
 };
 
-const unsigned char gameover_mj1_alternate[170] = 
+const unsigned char gameover_mj1_alternate[185] = 
 {
 	"Siciel seemed to be only|midly satisfed.|He then promptly dumped you.||You are now really sad.||You will never see his|beautiful nose again||Desperate, you hanged yourself.||GAME OVER"
 };

@@ -8,7 +8,6 @@ including without limitation the rights to use, copy, modify, merge, publish, di
 and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 */
 
-#include "player.h"
 #include "coleco.h"
 #include "getput1.h"
 #include "banks.h"
